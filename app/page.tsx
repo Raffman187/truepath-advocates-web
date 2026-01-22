@@ -462,6 +462,25 @@ export default function TruePathAdvocatesSite() {
           </div>
         </form>
       </Section>
+{/* Leadership */}
+<Section
+  id="leadership"
+  title="Leadership"
+  subtitle="Meet the founder of True Path Advocates."
+>
+  <p className="text-xl font-semibold">Charmaen Herrera</p>
+  <p className="text-sm italic text-gray-600 mb-4">
+    Founder & Chief Executive Officer
+  </p>
+
+  <p className="text-gray-700 leading-relaxed">
+    Charmaen Herrera is the Founder and CEO of True Path Advocates. She is
+    dedicated to helping individuals and families understand and navigate
+    complex healthcare and insurance systems. Through advocacy, education, and
+    personalized support, Charmaen leads True Path Advocates with a commitment
+    to clarity, compassion, and accountability.
+  </p>
+</Section>
 
       {/* Footer */}
       <footer className="border-t border-gray-200">
