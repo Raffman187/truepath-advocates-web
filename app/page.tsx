@@ -149,10 +149,10 @@ export default function TruePathAdvocatesSite() {
               <CheckIcon /> Free Consultation
             </a>
             <a
-              href="#donate"
+              href="#Support"
               className="ml-3 inline-flex items-center gap-2 rounded-2xl px-4 py-2 bg-black text-white shadow hover:-translate-y-0.5 transition"
             >
-              Donate
+              Support
             </a>
           </div>
         </nav>
@@ -297,12 +297,11 @@ export default function TruePathAdvocatesSite() {
           </div>
         </div>
       </Section>
-
-      {/* Donate */}
+{/* Support */}
 <Section
-  id="donate"
-  title="Donate"
-  subtitle="Your support helps TruePath Advocates continue serving our community. Thank you."
+  id="support"
+  title="Support Our Advocacy Work"
+  subtitle="Your support helps fund advocacy operations and client assistance. Contributions are not tax-deductible."
 >
   <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 
@@ -328,7 +327,7 @@ export default function TruePathAdvocatesSite() {
         className="mt-4 inline-flex items-center justify-center rounded-xl bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm
         hover:bg-blue-700 hover:shadow transition"
       >
-        Donate via Venmo
+        Support via Venmo
       </a>
     </div>
 
@@ -354,7 +353,7 @@ export default function TruePathAdvocatesSite() {
         className="mt-4 inline-flex items-center justify-center rounded-xl bg-green-500 px-4 py-2 text-sm font-semibold text-black shadow-sm
         hover:bg-green-400 hover:shadow transition"
       >
-        Donate via Cash App
+        Support via Cash App
       </a>
     </div>
 
@@ -405,7 +404,7 @@ export default function TruePathAdvocatesSite() {
         <h3 className="text-lg font-semibold text-blue-900">PayPal</h3>
       </div>
 
-      <p className="mt-2 text-[13px] text-blue-900/70">Donate securely with PayPal</p>
+      <p className="mt-2 text-[13px] text-blue-900/70">Support securely with PayPal</p>
 
       <a
         href="https://www.paypal.com/ncp/payment/HTZK4BJMG4CJJ"
@@ -414,7 +413,7 @@ export default function TruePathAdvocatesSite() {
         className="mt-4 inline-flex items-center justify-center rounded-xl bg-blue-700 px-4 py-2 text-sm font-semibold text-white shadow-sm
         hover:bg-blue-800 hover:shadow transition"
       >
-        Donate with PayPal
+        Support with PayPal
       </a>
     </div>
 
@@ -474,12 +473,12 @@ export default function TruePathAdvocatesSite() {
   </p>
 
   <p className="text-gray-700 leading-relaxed">
-    Charmaen Herrera is the Founder and CEO of True Path Advocates. She is
-    dedicated to helping individuals and families understand and navigate
-    complex healthcare and insurance systems. Through advocacy, education, and
-    personalized support, Charmaen leads True Path Advocates with a commitment
-    to clarity, compassion, and accountability.
-  </p>
+  Charmaen Herrera is the Founder and CEO of TruePath Advocates, bringing over <strong>15 years of hands-on experience</strong> in healthcare navigation, patient advocacy, and managed care support. Her background spans hospital systems, health plans, and community-based care, where she has worked directly with uninsured and underinsured patients to secure coverage, resolve billing issues, and navigate complex programs such as <strong>Medi-Cal, Medicare, SSI, and managed care plans</strong>.
+  <br /><br />
+  Most recently, Charmaen has served as a <strong>Patient Benefit Advisor</strong> in acute and ambulatory hospital settings, specializing in eligibility determination, insurance verification, appeals coordination, and benefits education. Her career also includes extensive experience in medical office administration, care coordination, and direct patient support across diverse populations.
+  <br /><br />
+  Known for her compassionate, detail-oriented approach, Charmaen combines deep system knowledge with clear communication and advocacy-driven follow-through. She leads TruePath Advocates with a commitment to <strong>clarity, accountability, and patient-centered solutions</strong>, ensuring clients feel supported, informed, and empowered at every step.
+</p>
 </Section>
 
       {/* Footer */}
@@ -495,9 +494,15 @@ export default function TruePathAdvocatesSite() {
             <a href="#pricing" className="hover:text-gray-900">Pricing</a>
             <a href="#contact" className="hover:text-gray-900">Contact</a>
           </nav>
-          <p className="text-xs text-gray-500">© {new Date().getFullYear()} TruePath Advocates. All rights reserved.</p>
-        </div>
-      </footer>
-    </div>
-  );
-}
+          <p className="text-xs text-gray-500 max-w-4xl mb-4 leading-relaxed text-center md:text-left">
+  <span className="font-medium">Disclaimer:</span> True Path Advocates provides
+  patient advocacy and educational support services. We do not provide medical,
+  legal, or insurance advice. All information shared is for general informational
+  purposes only and should not be considered a substitute for professional
+  medical, legal, or insurance guidance. Clients are encouraged to consult
+  qualified professionals regarding their specific circumstances.
+</p>
+
+<p className="text-xs text-gray-500">
+  © {new Date().getFullYear()} TruePath Advocates. All rights reserved.
+</p>
