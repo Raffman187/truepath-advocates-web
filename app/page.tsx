@@ -477,7 +477,7 @@ export default function TruePathAdvocatesSite() {
   <br /><br />
   Most recently, Charmaen has served as a <strong>Patient Benefit Advisor</strong> in acute and ambulatory hospital settings, specializing in eligibility determination, insurance verification, appeals coordination, and benefits education. Her career also includes extensive experience in medical office administration, care coordination, and direct patient support across diverse populations.
   <br /><br />
-  Known for her compassionate, detail-oriented approach, Charmaen combines deep system knowledge with clear communication and advocacy-driven follow-through. She leads TruePath Advocates with a commitment to <strong>clarity, accountability, and patient-centered solutions</strong>, ensuring clients feel supported, informed, and empowered at every step.
+  Known for her compassionate, detail-oriented approach, Charmaen combines deep system knowledge with clear communication and advocacy-driven follow-through. She leads TruePath Advocates with a commitment to <strong>clarity, accountability, and patient-centered solutions</strong>, ensuring clients feel supported, informed, and empowered at every step, so the pacient can focus on their helth and healing instead of stressing on the struggle of navigating through the system to get their needs met.
 </p>
 </Section>
 
