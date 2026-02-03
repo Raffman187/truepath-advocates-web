@@ -149,10 +149,10 @@ export default function TruePathAdvocatesSite() {
               <CheckIcon /> Free Consultation
             </a>
             <a
-              href="#support"
+              href="#donate"
               className="ml-3 inline-flex items-center gap-2 rounded-2xl px-4 py-2 bg-black text-white shadow hover:-translate-y-0.5 transition"
             >
-              Support
+              Make a Payment
             </a>
           </div>
         </nav>
@@ -506,3 +506,8 @@ export default function TruePathAdvocatesSite() {
 <p className="text-xs text-gray-500">
   © {new Date().getFullYear()} TruePath Advocates. All rights reserved.
 </p>
+        </div>
+      </footer>
+    </div>
+  );
+}
