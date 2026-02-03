@@ -149,7 +149,7 @@ export default function TruePathAdvocatesSite() {
               <CheckIcon /> Free Consultation
             </a>
             <a
-              href="#Support"
+              href="#support"
               className="ml-3 inline-flex items-center gap-2 rounded-2xl px-4 py-2 bg-black text-white shadow hover:-translate-y-0.5 transition"
             >
               Support
